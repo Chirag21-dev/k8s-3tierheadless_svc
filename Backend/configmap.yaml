@@ -3,5 +3,7 @@ kind: ConfigMap
 metadata:
   name: backend-config
 data:
-  DB_HOST: mysql-headless
-  DB_PORT:
+  DB_HOST: database-1.csfaa4wm8e1h.us-east-1.rds.amazonaws.com 
+  DB_PORT: "3306"
+  DB_NAME: "database-1"
+
